@@ -46,16 +46,15 @@ else
 <br />
 <br />
 <form method="post" action="">
-<table border="0" cellpadding="5" cellspacing="5" class="design">
+<table border="0" cellpadding="5" cellspacing="5" class="design" style="padding: 2%;">
 <tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
 <tr><td class="labels">Email ID :</td><td><input type="text" required="required" name="email" class="fields" size="15" placeholder="Enter Email ID" /></td></tr>
 <tr><td class="labels">password :</td><td><input type="password" required="required" name="pass" class="fields" size="15" placeholder="Enter Password" /></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="Login" class="fields" /></td></tr>
 </table>
 </form>
-<br />
-<br />
-<a href="index.php" class="link">Home</a>
+
+<a href="index.php" class="link head">Home</a>
 </div>
 </body>
 </html>

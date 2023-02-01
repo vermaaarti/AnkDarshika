@@ -42,7 +42,7 @@ else
 <br />
 <br />
 <form method="post" action="">
-<table border="0" cellpadding="5" cellspacing="5" class="design">
+<table border="0" cellpadding="5" cellspacing="5" class="design" style="padding: 2%;">
 <tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
 <tr><td class="labels">Name :</td><td><input type="text" name="name" class="fields" required="required" size="15" placeholder="Enter Full Name" /></td></tr>
 <tr><td class="labels">Semester :</td><td><select name="sem" class="fields" required>
@@ -63,9 +63,8 @@ else
 <tr><td colspan="2" align="center"><input type="submit" value="Register" class="fields" /></td></tr>
 </table>
 </form>
-<br />
-<br />
-<a href="index.php" class="link">Home</a>
+
+<a href="index.php" class="link head">Home</a>
 </div>
 </body>
 </html>

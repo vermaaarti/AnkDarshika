@@ -33,7 +33,7 @@ $b=mysqli_fetch_array($a);
 <?php $m=mysqli_query($al,"SELECT * FROM subjects WHERE sem='$sem'");
 $n=mysqli_fetch_array($m);
 ?>
-<table border="0" cellpadding="5" cellspacing="5" class="design">
+<table border="0" cellpadding="10" cellspacing="10" cellspacing="5" class="design" style="padding: 2%;">
 <tr><td class="labels" style="text-decoration:underline;color:cyan;">Subject</td><td class="labels" style="text-decoration:underline;color:cyan;">Marks</td></tr>
 <tr><td class="labels"><?php echo $n['s1'];?></td><td class="labels"><?php echo $b['s1'];?></td></tr>
 <tr><td class="labels"><?php echo $n['s2'];?></td><td class="labels"><?php echo $b['s2'];?></td></tr>
@@ -44,10 +44,7 @@ $n=mysqli_fetch_array($m);
 <tr><td class="labels">Result : </td><td style="color:cyan;"><?php echo $b['result'];?></td></tr>
 </table>
 
-
-<br />
-<br />
-<a href="index.php" class="link">EXIT</a>
+<a href="index.php" class="link head">EXIT</a>
 </div>
 </body>
 </html>

@@ -2,27 +2,34 @@
 /* CSS Document */
 body
 {
-	background-image:url(img/result.jpg);
+	/* background-image:url(img/result.jpg); */
 	margin:0px;
-	background-color:rgb(232, 238, 243);
+	/* background-color:rgb(232, 238, 243); */
+	/* background-color:   rgb(255, 255, 255); */
+	font-family: "Papyrus Cedarville Cursive cursive";
 
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 .head
 {
 	font-family:"Papyrus";
-	font-size:40px;
+	font-size:20px;
 	color:rgb(15, 14, 14);
-	margin-left:50px;
+/*	margin-left:50px;*/
 
 }
 
-.hr
+/* .hr
 {
 	width:80%;
 	height:5px;
 	border-radius:100px;
 	background-color:rgba(10, 0, 0, 0.938);
-}
+} */
 
 .subhead
 {
@@ -37,14 +44,13 @@ body
 {
 	font-family:"Times New Roman";
 	color:#0f0f0f;
-	font-size:30px;
+	/* font-size:30px; */
 	
 }
 
 .fields
 {
 	font-family:"Times New Roman";
-	font-size:30px;
 	padding:18px 12px;
 	color:rgb(1, 12, 11);
 	background-color:transparent;
@@ -54,35 +60,34 @@ body
 .design
 {
 	background-color:rgb(248, 244, 244);
-	border:3px solid #45d4f8;
-	border-radius:5px;
-	padding:90px 90px;
+	border-radius:25px;
+	margin: 20px;
 	box-shadow:4px 4px 10px #000000;
-}
+	}
 .design a{
 	
 	font-size: 30px;
 	color:black;
 }
-a.link:link{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:rgb(7, 0, 0);}
+/* a.link:link{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:rgb(7, 0, 0);}
 a.link:active{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:rgb(10, 0, 0);}
 a.link:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:rgb(8, 0, 0);}
-a.link:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:#110f0f;font-weight: bolder;}
+a.link:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:#110f0f;font-weight: bolder;} */
 
 .msg
 {
 	font-family:"Times New Roman";
-	font-size:30px;
+	/* font-size:30px; */
 	color:rgb(52, 236, 206);
 }
 .btn{border-radius:15px;
 	border:2px solid cyan;
-	margin-bottom:20px;
+	/* margin-bottom:20px; */
 }
-.btn:hover{
-	padding: 10px; 
+/* .btn:hover{
+	 padding: 10px;  
 
-}
+} */
 .cmd{
 	color:rgb(37, 38, 38);
 	text-align: none;

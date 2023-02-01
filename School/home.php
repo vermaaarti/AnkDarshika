@@ -26,7 +26,7 @@ $name=$b['name'];
 <hr class="hr" />
 <br />
 <br />
-<span class="subhead">Welcome <?php echo $name;?> sir</span>
+<span class="subhead">Welcome <?php echo $name;?> sir/ma'am</span>
 <br /><span align="center" style="font-size:30px;">Dear faculty you have the right to</span>
 <br />
 <br />
